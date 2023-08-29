@@ -7,7 +7,7 @@ console.log( typeof( y ) );
 console.log( typeof( z ) );
 
 console.log('Analice y ejecute este otro código');
-console.log( 7 + 7 + 7 );
+console.log( 7 + 7 + 7 );       //el resultado depende del primer tipo de dato
 console.log( 7 + 7 + "7" );
 console.log( "7" + 7 + 7 );
 console.log( 10 - 2 - 4 );
