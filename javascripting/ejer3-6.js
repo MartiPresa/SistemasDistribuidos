@@ -11,4 +11,5 @@ function Car(brand, model, year) {
     }
 
 var miAuto = new Car("fiat", "600", 1980);
+console.log(miAuto);
     
