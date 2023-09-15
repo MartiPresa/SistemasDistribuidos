@@ -1,6 +1,7 @@
 var readline = require('readline');
 
 console.log("xd");
+console.log('cami cara de caca');
 
 var rl = readline.createInterface({
     input: process.stdin,
@@ -12,3 +13,4 @@ rl.question('Escriba el radio del círculo: ', function (r) {
     console.log('La circunferencia es: ' + 2 * 3.14 * r);
     rl.close();
 });
+
