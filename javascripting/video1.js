@@ -66,7 +66,7 @@ console.log('a' + true) // resultado: 'atrue
 /*
 en cambio, cuando hay un -, solo puede funcionar como una resta. Entonces
 fuerza al caracter a convertirse a numerico */
-console.log(1 + '1') // resultado: 0
+console.log(1 - '1') // resultado: 0
 
 /*
 En el caso de sumar un booleano con un numero, convierte el booleno a numerico*/

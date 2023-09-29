@@ -241,7 +241,7 @@ const myArray3 = myArray.filter(function(value, index) {
 //*encontrar
 //*Usando find --> si no lo encuentra devuelve undefined
 const enc = myArray.find(function(value, index) {
-    return value === 7
+    retrun value === 7
 }) // guarda el index del elemento encontrado
 
 //*Usando findIndex -->si no encuentra, devuelve -1
@@ -520,21 +520,6 @@ function myFn(){
 }
 
 const fn = myFn() //dentro de la funcion 1
-console.log('Ya termino de ejecutar myFn()') //ya termino de ejecutar
-fn() //dentro de la subfuncion 1
-
-function myFn(){
-  var myVar = 1
-  console.log('Dentro de la funcion ', myVar1);
-
-  return myFn2(){
-      console.log('Dentro de la sub-funcion ', myVar1);
-  }
-
-}
-
-const fn = myFn() //dentro de la funcion 1
-var myVar = 0
 console.log('Ya termino de ejecutar myFn()') //ya termino de ejecutar
 fn() //dentro de la subfuncion 1
 
